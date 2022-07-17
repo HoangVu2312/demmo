@@ -4,6 +4,7 @@
     --primary: #ddd;
     --dark: #333;
     --light: #fff;
+    --red: #ff0000;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
@@ -20,6 +21,7 @@
 
 body{
     background-color: #ccc; /* Not using variable because only use this one time*/
+    background-color: var(--red);
     margin: 25px 50px;
     line-height: 1.4;         /* heigh between two text lines*/
 }
